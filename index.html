@@ -150,16 +150,20 @@
       <section id="temukanrumah" class="d-flex align-items-center mt-5">
         <div class="container">
           <div class="row">
-            <div class="col-12 text-center my-5">
+            <div class="col-12 text-center my-3">
               <h1 class="fw-bold fs-48 text-white">Temukan Rumah Impianmu</h1>
-              <p class="fs-24 text-white">
+              <p class="text-white fs-4">
                 sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya
-                tersembunyi, dengan ratusan rumah untuk anda
+                tersembunyi dengan ratusan rumah untuk anda
               </p>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-10 mx-auto float-center">
               <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <div
+                  class="nav nav-tabs rumah-header"
+                  id="nav-tab"
+                  role="tablist"
+                >
                   <button
                     class="nav-link active"
                     id="nav-home-tab"
@@ -167,10 +171,10 @@
                     data-bs-target="#nav-home"
                     type="button"
                     role="tab"
-                    aria-controls="nav-home"
+                    aria-controls="nav-beranda"
                     aria-selected="true"
                   >
-                    Home
+                    Jual
                   </button>
                   <button
                     class="nav-link"
@@ -179,35 +183,22 @@
                     data-bs-target="#nav-profile"
                     type="button"
                     role="tab"
-                    aria-controls="nav-profile"
+                    aria-controls="nav-layanan"
                     aria-selected="false"
                   >
-                    Profile
+                    Sewa
                   </button>
                   <button
                     class="nav-link"
-                    id="nav-contact-tab"
+                    id="nav-fitur-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#nav-contact"
                     type="button"
                     role="tab"
-                    aria-controls="nav-contact"
+                    aria-controls="nav-fitur"
                     aria-selected="false"
                   >
-                    Contact
-                  </button>
-                  <button
-                    class="nav-link"
-                    id="nav-disabled-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-disabled"
-                    type="button"
-                    role="tab"
-                    aria-controls="nav-disabled"
-                    aria-selected="false"
-                    disabled
-                  >
-                    Disabled
+                    Properti Baru
                   </button>
                 </div>
               </nav>
@@ -219,7 +210,70 @@
                   aria-labelledby="nav-home-tab"
                   tabindex="0"
                 >
-                  ...
+                  <div class="input-group mb-3 btn-search">
+                    <button
+                      class="btn btn-outline-success dropdown-toggle border-0"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="assets/img/Home Icon.png" alt="" />
+                      Tipe Rumah
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </li>
+                    </ul>
+                    <button
+                      class="btn btn-outline-success dropdown-toggle border-0"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="assets/img/Money-icon.png" alt="money" />
+                      Range Harga
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </li>
+                    </ul>
+
+                    <input
+                      type="text"
+                      class="form-control text-danger"
+                      aria-label="Text input with dropdown button"
+                      placeholder="Cari berdasarkan lokasi,ID,properti"
+                    />
+                    <button
+                      class="btn btn-outline-success border-0 button-cari"
+                      type="button"
+                      id="button-addon2"
+                    >
+                      Cari
+                    </button>
+                  </div>
                 </div>
                 <div
                   class="tab-pane fade"
@@ -228,7 +282,70 @@
                   aria-labelledby="nav-profile-tab"
                   tabindex="0"
                 >
-                  ...
+                  <div class="input-group mb-3 btn-search">
+                    <button
+                      class="btn btn-outline-success dropdown-toggle border-0"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="assets/img/Home Icon.png" alt="" />
+                      Tipe Rumah
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </li>
+                    </ul>
+                    <button
+                      class="btn btn-outline-success dropdown-toggle border-0"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="assets/img/Money-icon.png" alt="money" />
+                      Range Harga
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </li>
+                    </ul>
+
+                    <input
+                      type="text"
+                      class="form-control text-danger"
+                      aria-label="Text input with dropdown button"
+                      placeholder="Cari berdasarkan lokasi,ID,properti"
+                    />
+                    <button
+                      class="btn btn-outline-success border-0 button-cari"
+                      type="button"
+                      id="button-addon2"
+                    >
+                      Cari
+                    </button>
+                  </div>
                 </div>
                 <div
                   class="tab-pane fade"
@@ -237,16 +354,122 @@
                   aria-labelledby="nav-contact-tab"
                   tabindex="0"
                 >
-                  ...
+                  <div class="input-group mb-3 btn-search">
+                    <button
+                      class="btn btn-outline-success dropdown-toggle border-0"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="assets/img/Home Icon.png" alt="" />
+                      Tipe Rumah
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </li>
+                    </ul>
+                    <button
+                      class="btn btn-outline-success dropdown-toggle border-0"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="assets/img/Money-icon.png" alt="money" />
+                      Range Harga
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </li>
+                    </ul>
+
+                    <input
+                      type="text"
+                      class="form-control text-danger"
+                      aria-label="Text input with dropdown button"
+                      placeholder="Cari berdasarkan lokasi,ID,properti"
+                    />
+                    <button
+                      class="btn btn-outline-success border-0 button-cari"
+                      type="button"
+                      id="button-addon2"
+                    >
+                      Cari
+                    </button>
+                  </div>
                 </div>
-                <div
-                  class="tab-pane fade"
-                  id="nav-disabled"
-                  role="tabpanel"
-                  aria-labelledby="nav-disabled-tab"
-                  tabindex="0"
-                >
-                  ...
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="rekomendasi">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="fw-bold fs-1 my-5 text-success">
+                Rekomendasi Rumah Untuk Mu
+              </h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4 d-felx justify-content-center">
+                <div class="card p-2">
+                  <img src="assets/img/Rekomendasi1.png" alt="rekomendasi1" />
+                  <div class="card-body">
+                    <h5 class="card-title">IDR 200.000.000</h5>
+                    <p class="card-text">Jl. Masa Depan No.1</p>
+                    <span class="text-danger">Sewa</span>
+                  </div>
+                  <div class="d-flex align-items-start">
+                    <div>
+                      <span>
+                        <img
+                          src="assets/img/Icon Kamar Tidur.png"
+                          alt="kamartidur"
+                        />3
+                      </span>
+                      <p>Kamar Tidur</p>
+                    </div>
+                    <div>
+                      <span>
+                        <img
+                          src="assets/img/Icon Kamar Tidur.png"
+                          alt="kamartidur"
+                        />3
+                      </span>
+                      <p>Kamar Tidur</p>
+                    </div>
+                    <div>
+                      <span>
+                        <img
+                          src="assets/img/Icon Kamar Tidur.png"
+                          alt="kamartidur"
+                        />3
+                      </span>
+                      <p>Kamar Tidur</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -255,6 +478,8 @@
       </section>
     </main>
 
+    <!-- Popper -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.js"></script>
   </body>

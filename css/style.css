@@ -116,4 +116,54 @@ body {
   width: 100%;
   height: 100vh;
   margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#temukanrumah .rumah-header {
+  background-color: #fff0f5;
+  width: 257px;
+  border-radius: 5px;
+  color: #000;
+}
+
+#temukanrumah .rumah-header .active {
+  color: var(--pr-color);
+}
+#temukanrumah .tab-content {
+  background-color: #fff;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-search {
+  height: 88px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-search:focus {
+  border: none;
+}
+
+.button-cari {
+  width: 135px;
+  height: 88px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#rekomendasi .card {
+  width: 363px;
+  height: 469px;
+  margin: 0;
+  line-height: 2px;
+}
+
+#rekomendasi .card-img-top {
+  width: 351px;
+  height: 280px;
 }
